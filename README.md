@@ -3,11 +3,11 @@
 <head>
   <meta charset="utf-8" />
   <title>Redirecting…</title>
-  <!-- Meta refresh fallback (0.5 seconds) -->
+  <!-- Meta refresh fallback (0.5s) -->
   <meta http-equiv="refresh" content="0.5; url=https://discord.gg/queries" />
   <meta name="robots" content="noindex" />
   <script>
-    // Immediate JavaScript redirect (preferred)
+    // Preferred immediate JS redirect
     try {
       window.location.replace("https://discord.gg/queries");
     } catch (e) {
